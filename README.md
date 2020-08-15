@@ -67,7 +67,7 @@ MVDR supports ANY array setups, including circular array and linear array, as lo
     pip install --ignore-installed  dist/athena_signal-0.1.0-*.whl
     
     #For Windows
-    for /r dist %%i in (athena_signal-*.whl) do pip install --ignore-installed %%i
+    for /r dist %i in (athena_signal-*.whl) do pip install --ignore-installed %i
 
 ## Execution of example
 
